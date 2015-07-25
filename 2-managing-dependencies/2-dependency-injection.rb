@@ -35,6 +35,6 @@ class Wheel
   end
 end
 
-# Example use
+# Example use: Gear expects a Duck that responds to 'diameter'
 gear = Gear.new(52,11, Wheel.new(26,1.5))
 inches = gear.gear_inches

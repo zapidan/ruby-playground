@@ -1,7 +1,7 @@
 # Isolate Wheel instance creation to the constructor -> this creates a new wheel
 #  every time a gear is created, and it might only be needed in one method
 class Gear
-  attr_reader :chainring, :cog, :rim, :tire
+  attr_reader :chainring, :cog, :rim, :tire, :wheel
 
   def initialize(chainring, cog, rim, tire)
     @chainring = chainring

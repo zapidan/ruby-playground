@@ -41,6 +41,6 @@ end
 
 # example run
 wheel = Wheel.new(26, 1.5)
-gear = Gear.new(52, 11, wheel)
+gear = Gear.new(52, 11, 26, 1.5)
 puts "gear inches: #{gear.gear_inches}"
 puts "gear ratio: #{gear.ratio}"
