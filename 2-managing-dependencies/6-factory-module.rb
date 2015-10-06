@@ -13,7 +13,7 @@ end
 
 # Wrap the interface in your own module to control instance creation. It essentially works as a factory
 module GearWrapper
-  # Methos class in a module suggests it is not meant to be instanciatied
+  # Method class in a module suggests it is not meant to be instantiated
   def self.gear(args)
     SomeFramework::Gear.new(args[:chainring],
                             args[:cog],

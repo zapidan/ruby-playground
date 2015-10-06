@@ -30,7 +30,7 @@
 - In addition to sharing an interface, duck types might also share behavior -> place the shared code in a module and include it in each class or object that plays the role
 
 #### Insist on the Abstraction
-- All the code in an abstract superclass should apply to every class that inherits it -> bad sympton is an overriden method that raises a 'does not implememnt' exception
+- All the code in an abstract superclass should apply to every class that inherits it -> bad sympton is an overriden method that raises a 'does not implemement' exception
 - The code in a module must apply to all who use it
 
 #### Honor the Contract
@@ -41,7 +41,7 @@
 #### Use the Template Method Pattern
 - Abstract code defines the algorithms
 - Concrete inheritors of that abstraction contribute specializations by overriding these template methods
-- Template methods represent the parts of the algoriyhms that vary
+- Template methods represent the parts of the algorithms that vary
 
 #### Preemptively Decouple Classes
 - Inheritance adds dependendencies on the structure of the code, avoid adding additional dependencies by requiring subclasses to send super
